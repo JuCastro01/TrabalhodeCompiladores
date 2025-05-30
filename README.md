@@ -56,7 +56,8 @@ gcc -g -Og -Wall compilador.c -o compilador
 
 ### e0.txt e1.txt e2.txt
 
-![image](https://github.com/user-attachments/assets/e18d6b97-8bc9-4fee-848f-d18f4d92b5c7)
+![image](https://github.com/user-attachments/assets/fd36c2fd-6254-4a28-8e31-d51a4043aeaf)
+
 
 ### t0.txt
 
