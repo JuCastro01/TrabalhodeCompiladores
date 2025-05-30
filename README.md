@@ -4,6 +4,20 @@
 Esse projeto possui duas partes onde a primeira é a execução de um compilador que atenda as etapas de análise lexica e sintática e a segunda parte engloba a análise semantica e geração de código.
 Os demais arquivos são os utilizados para teste.
 
+## 🔧 Execução:
+O trabalho deve foi desenvolvido na linguagem C e pode ser executado usando o compilador do MinGW
+com VSCode, para configurar sua máquina no Windows acesse:
+https://www.doug.dev.br/2022/Instalacoes-e-configuracoes-para-programar-em-C-usando-o-VSCode/
+• Com o seguinte comando abaixo
+
+
+```
+gcc -g -Og -Wall compilador.c -o compilador
+
+```
+
+
+
 ## Testes Parte 1:
 
 ### e0.txt
@@ -38,18 +52,6 @@ Os demais arquivos são os utilizados para teste.
 
 ![image](https://github.com/user-attachments/assets/dd573e71-feaf-44ae-9988-c9f3db16248f)
 
-
-## 🔧 Execução:
-O trabalho deve foi desenvolvido na linguagem C e pode ser executado usando o compilador do MinGW
-com VSCode, para configurar sua máquina no Windows acesse:
-https://www.doug.dev.br/2022/Instalacoes-e-configuracoes-para-programar-em-C-usando-o-VSCode/
-• Com o seguinte comando abaixo
-
-
-```
-gcc -g -Og -Wall compilador.c -o compilador
-
-```
 
 
 </div>
