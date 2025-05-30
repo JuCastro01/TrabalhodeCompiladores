@@ -4,6 +4,14 @@
 Esse projeto possui duas partes onde a primeira é a execução de um compilador que atenda as etapas de análise lexica e sintática e a segunda parte engloba a análise semantica e geração de código.
 Os demais arquivos são os utilizados para teste.
 
+## Testes:
+e0.txt
+![image](https://github.com/user-attachments/assets/c3551c25-dbe1-490f-b9fe-5bb647270a90)
+
+e1.txt
+![image](https://github.com/user-attachments/assets/1f2f403d-f04d-45d2-a463-3ae08c19d400)
+
+
 ## 🔧 Execução:
 O trabalho deve foi desenvolvido na linguagem C e pode ser executado usando o compilador do MinGW
 com VSCode, para configurar sua máquina no Windows acesse:
