@@ -1,0 +1,12 @@
+void main (void){
+
+
+int i, soma;
+
+  soma  = 0x5;
+  i = 0x1;
+  while( i < 0x3)
+    soma = soma + i;
+  writeint(soma);
+  
+}

@@ -1,0 +1,10 @@
+void main(void){
+int x, y, iguais;
+
+  readint(x);
+  if( x == y )
+    iguais = 0x1;
+  else
+    iguais = 0x0;
+  writeint(iguais);
+}

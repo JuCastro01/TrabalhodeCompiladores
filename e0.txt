@@ -1,0 +1,12 @@
+
+void main( void ) {
+/**/
+	int a_1 ;
+	b = '3';
+	a = 20;
+	//char b;
+	/**/
+    a = 0x40;
+	a = 20; // erro de inteiro na linha debaixo
+	b = '3'; 
+}

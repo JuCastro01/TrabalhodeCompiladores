@@ -1,0 +1,11 @@
+/* 
+Comentario de varias linhas * / / *
+**/ 
+void main( void ) { 
+	int a_1 ;
+	//b = '3';
+	
+    	a_1 = 0x10;
+	a = 0x2A0; 
+	b = '3'; 
+}

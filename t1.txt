@@ -1,0 +1,15 @@
+
+void main ( void ) {
+/*
+programa le dois numeros inteiros e encontra o maior 
+*/
+int num_1, num_2, maior;
+readint(num_1);
+readint(num_2);
+if ( num_1 > num_2 ) 
+    maior = num_1;
+else
+    maior = num_2;
+
+writeint(maior); // imprime o maior valor
+}

@@ -1,0 +1,1 @@
+void main( void){int a, b,ambos_maiores;readint(a);ambos_maiores = (a > 0x20) && (b > 0x30);writeint(ambos_maiores);}
