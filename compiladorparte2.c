@@ -304,12 +304,12 @@ void var_decl() {
 
 void var_decl_list() {
     insere_tabela_simbolos(lookahead.lexema);
-    printf("\tAMEM \n");      // Aloca memória
+    printf("\tAMEM 1\n");      // Aloca memória
     consome(IDENTIFICADOR);
     while (lookahead.atomo == VIRGULA) {
         consome(VIRGULA);
         insere_tabela_simbolos(lookahead.lexema);
-        printf("\tAMEM\n");
+        printf("\tAMEM 1\n");
         consome(IDENTIFICADOR);
     }
 }
