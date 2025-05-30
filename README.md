@@ -52,6 +52,34 @@ gcc -g -Og -Wall compilador.c -o compilador
 
 ![image](https://github.com/user-attachments/assets/dd573e71-feaf-44ae-9988-c9f3db16248f)
 
+## Testes Parte 2:
+
+### e0.txt e1.txt e2.txt
+
+![image](https://github.com/user-attachments/assets/e18d6b97-8bc9-4fee-848f-d18f4d92b5c7)
+
+### t0.txt
+
+![image](https://github.com/user-attachments/assets/65fea463-b991-4344-8933-a88203bf4370)
+
+### t1.txt
+
+![image](https://github.com/user-attachments/assets/c3d7c470-1c01-426e-b76f-e7fe81b26ddb)
+
+### t2.txt
+
+![image](https://github.com/user-attachments/assets/85b5ba3c-5800-4fcc-b219-e1a309a7b682)
+
+
+### t3.txt
+
+![image](https://github.com/user-attachments/assets/746a214e-845a-4e28-b171-2af520bf4e22)
+
+
+### t4.txt
+
+![image](https://github.com/user-attachments/assets/f21ea171-5f38-4865-b78a-7580c2bfa82e)
+
 
 
 </div>
