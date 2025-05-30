@@ -4,7 +4,7 @@
 Esse projeto possui duas partes onde a primeira é a execução de um compilador que atenda as etapas de análise lexica e sintática e a segunda parte engloba a análise semantica e geração de código.
 Os demais arquivos são os utilizados para teste.
 
-## Testes:
+## Testes Parte 1:
 
 ### e0.txt
 
@@ -13,6 +13,30 @@ Os demais arquivos são os utilizados para teste.
 ### e1.txt
 
 ![image](https://github.com/user-attachments/assets/1f2f403d-f04d-45d2-a463-3ae08c19d400)
+
+### e2.txt
+
+![image](https://github.com/user-attachments/assets/db5f9c08-61d0-4117-acfc-e5d41662ea8c)
+
+### t0.txt
+
+![image](https://github.com/user-attachments/assets/f901797c-a1c2-4cb4-812a-aeb15496ef69)
+
+### t1.txt
+
+![image](https://github.com/user-attachments/assets/caa1d958-fd58-4690-b9a7-a2b6a784074d)
+
+### t2.txt
+
+![image](https://github.com/user-attachments/assets/d5f32412-4b66-469a-8686-f38bfc6de7b6)
+
+### t3.txt
+
+![image](https://github.com/user-attachments/assets/f9d9d03d-f76e-44a3-add3-023d0fbfa634)
+
+### t4.txt
+
+![image](https://github.com/user-attachments/assets/dd573e71-feaf-44ae-9988-c9f3db16248f)
 
 
 ## 🔧 Execução:
