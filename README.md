@@ -5,10 +5,13 @@ Esse projeto possui duas partes onde a primeira é a execução de um compilador
 Os demais arquivos são os utilizados para teste.
 
 ## Testes:
-e0.txt
+
+### e0.txt
+
 ![image](https://github.com/user-attachments/assets/c3551c25-dbe1-490f-b9fe-5bb647270a90)
 
-e1.txt
+### e1.txt
+
 ![image](https://github.com/user-attachments/assets/1f2f403d-f04d-45d2-a463-3ae08c19d400)
 
 
