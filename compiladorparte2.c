@@ -13,6 +13,7 @@ typedef enum {
     OR, AND, COMENTARIO, EOS
 } TAtomo;
 
+// Estrutura para armazenar informações de um token
 typedef struct {
     TAtomo atomo;
     int linha;
@@ -125,7 +126,6 @@ TInfoAtomo obter_atomo() {
         //printf("# %d:comentario\n", info.linha);
         return obter_atomo();
     }
-
     if (*cursor == '/' && *(cursor+1) == '*') {
         reconhece_comentario();
         //printf("# %d:comentario\n", info.linha);
@@ -136,7 +136,7 @@ TInfoAtomo obter_atomo() {
     if (isalpha(*cursor) || *cursor == '_') return reconhece_id_ou_palavra();
     // Constantes hexadecimais
     if (*cursor == '0' && *(cursor+1) == 'x') return reconhece_intconst();
-    // Constantes de letras
+    // Constantes de caractere
     if (*cursor == '\'') return reconhece_charconst();
 
     // Operadores, parenteses, chaves
@@ -214,7 +214,7 @@ TInfoAtomo reconhece_id_ou_palavra() {
     return info;
 }
 
-// Reconhece constantes
+// Reconhece constantes hexadecimais
 TInfoAtomo reconhece_intconst() {
     TInfoAtomo info = {INTCONST, contaLinha, "", 0, '\0'};
     cursor += 2; // Pula "0x"
@@ -279,7 +279,7 @@ void consome(TAtomo t) {
 void program(), compound_stmt(), var_decl(), var_decl_list(), stmt();
 void expr(), conjunction(), comparison(), sum(), term(), factor();
 
-//função inicial: void main(void) { ... }
+
 void program() {
     consome(VOID); consome(MAIN); consome(ABRE_PAR); consome(VOID); consome(FECHA_PAR);
     compound_stmt();
@@ -414,9 +414,8 @@ void sum() {
         else printf("\tSUBT\n");
     }
 }
-
-// Multiplicação e divisão
 void term() {
+// Multiplicação e divisão
     factor();
     while (lookahead.atomo == MULT || lookahead.atomo == DIV) {
         TAtomo op = lookahead.atomo;
